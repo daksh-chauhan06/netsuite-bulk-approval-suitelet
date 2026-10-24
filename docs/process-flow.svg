@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1516" viewBox="0 0 1100 1516"><rect width="100%" height="100%" fill="#ffffff"/>
+<rect x="8" y="56" width="1084" height="396" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<text x="22" y="78" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#2563eb" text-anchor="start">1 - LOAD THE PAGE  (GET)</text>
+<rect x="8" y="472" width="1084" height="318" rx="14" fill="#fffbeb" stroke="#d97706" stroke-width="1"/>
+<text x="22" y="494" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#d97706" text-anchor="start">2 - IN THE BROWSER</text>
+<rect x="8" y="810" width="1084" height="556" rx="14" fill="#f8fafc" stroke="#475569" stroke-width="1"/>
+<text x="22" y="832" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#475569" text-anchor="start">3 - PROCESS THE SELECTION  (POST)</text>
+<rect x="8" y="1386" width="1084" height="110" rx="14" fill="#faf5ff" stroke="#7c3aed" stroke-width="1"/>
+<text x="22" y="1408" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#7c3aed" text-anchor="start">4 - RESULT</text>
+<text x="550" y="34" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#1f2d3d" text-anchor="middle">Bulk Approval Suitelet - Process Flow</text>
+<rect x="370.0" y="84" width="360" height="44" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.8"/>
+<text x="550" y="110.55" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1f2d3d" text-anchor="middle">Approver opens the Suitelet</text>
+<rect x="190.0" y="154" width="720" height="92" rx="10" fill="#ffffff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="550" y="179.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1f2d3d" text-anchor="middle">Search Approval Instance records that are:</text>
+<text x="550" y="196.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">pending  |  current level (not historical)  |  requested, not completed  |</text>
+<text x="550" y="213.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">for the PO / Bill type  |  created on or after the cut-off date  |</text>
+<text x="550" y="230.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">AND the record's Next Approver is the logged-in user</text>
+<rect x="190.0" y="272" width="720" height="74" rx="10" fill="#ffffff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="550" y="296.55" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1f2d3d" text-anchor="middle">Check each PO / Bill found:</text>
+<text x="550" y="313.55" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">real record?  |  still Pending Approval?  |  not a self-approval?</text>
+<text x="550" y="330.55" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">Then work out Delay = days since this level was requested</text>
+<rect x="190.0" y="372" width="720" height="60" rx="10" fill="#ffffff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="550" y="398.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">Render the page: Approve / Reject buttons, any result cards, then</text>
+<text x="550" y="415.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">Vendor Bills (n) and Purchase Orders (n) lists with a comment box per row</text>
+<path d="M 550,128 L 550,154" fill="none" stroke="#475569" stroke-width="1.8"/>
+<polygon points="550,154 544.5,143.0 555.5,143.0" fill="#475569"/>
+<path d="M 550,246 L 550,272" fill="none" stroke="#475569" stroke-width="1.8"/>
+<polygon points="550,272 544.5,261.0 555.5,261.0" fill="#475569"/>
+<path d="M 550,346 L 550,372" fill="none" stroke="#475569" stroke-width="1.8"/>
+<polygon points="550,372 544.5,361.0 555.5,361.0" fill="#475569"/>
+<path d="M 550,432 L 550,500" fill="none" stroke="#475569" stroke-width="1.8"/>
+<polygon points="550,500 544.5,489.0 555.5,489.0" fill="#475569"/>
+<rect x="230.0" y="500" width="640" height="54" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="1.8"/>
+<text x="550" y="523.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">Approver ticks rows (in either list) and types comments</text>
+<text x="550" y="540.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">(a comment is required to reject)</text>
+<polygon points="550,590.0 770.0,640 550,690.0 330.0,640" fill="#ffffff" stroke="#d97706" stroke-width="1.8"/>
+<text x="550" y="636.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">Reject clicked and a</text>
+<text x="550" y="653.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">selected row has no comment?</text>
+<rect x="840.0" y="612" width="230" height="56" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+<text x="955" y="636.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">Alert is shown,</text>
+<text x="955" y="653.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">nothing is submitted</text>
+<rect x="230.0" y="720" width="640" height="50" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="1.8"/>
+<text x="550" y="741.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">Loader overlay appears, then the form is submitted</text>
+<text x="550" y="758.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">(a hidden native submit button keeps the list data intact)</text>
+<path d="M 550,554 L 550,590" fill="none" stroke="#475569" stroke-width="1.8"/>
+<polygon points="550,590 544.5,579.0 555.5,579.0" fill="#475569"/>
+<path d="M 550,690 L 550,720" fill="none" stroke="#475569" stroke-width="1.8"/>
+<polygon points="550,720 544.5,709.0 555.5,709.0" fill="#475569"/>
+<rect x="564.62" y="695" width="26.759999999999998" height="20" rx="10" fill="#ffffff" stroke="#cbd5e1"/>
+<text x="578" y="710" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#1f2d3d" text-anchor="middle">No</text>
+<path d="M 770,640 L 840,640" fill="none" stroke="#475569" stroke-width="1.8"/>
+<polygon points="840,640 829.0,645.5 829.0,634.5" fill="#475569"/>
+<rect x="788.43" y="617" width="33.14" height="20" rx="10" fill="#ffffff" stroke="#cbd5e1"/>
+<text x="805" y="632" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#1f2d3d" text-anchor="middle">Yes</text>
+<path d="M 955,612 L 955,527 L 870,527" fill="none" stroke="#dc2626" stroke-width="1.8" stroke-dasharray="6 4"/>
+<polygon points="870,527 881.0,521.5 881.0,532.5" fill="#dc2626"/>
+<text x="1010" y="580" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#dc2626" text-anchor="middle">fix and retry</text>
+<path d="M 550,770 L 550,838" fill="none" stroke="#475569" stroke-width="1.8"/>
+<polygon points="550,838 544.5,827.0 555.5,827.0" fill="#475569"/>
+<rect x="160.0" y="838" width="780" height="70" rx="10" fill="#ffffff" stroke="#475569" stroke-width="1.8"/>
+<text x="550" y="860.55" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1f2d3d" text-anchor="middle">For each selected row, re-validate before touching anything:</text>
+<text x="550" y="877.55" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">still my turn  |  still Pending Approval  |  not a self-approval</text>
+<text x="550" y="894.55" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">(rows that fail are skipped and reported, never processed)</text>
+<polygon points="550,946.0 660.0,990 550,1034.0 440.0,990" fill="#ffffff" stroke="#475569" stroke-width="1.8"/>
+<text x="550" y="994.55" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">Which action?</text>
+<path d="M 550,908 L 550,946" fill="none" stroke="#475569" stroke-width="1.8"/>
+<polygon points="550,946 544.5,935.0 555.5,935.0" fill="#475569"/>
+<rect x="70.0" y="1070" width="440" height="92" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.8"/>
+<text x="290" y="1095.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1f2d3d" text-anchor="middle">APPROVE</text>
+<text x="290" y="1112.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">1. Save the comment on the approval instance</text>
+<text x="290" y="1129.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">2. On the PO / Bill: set approver comment</text>
+<text x="290" y="1146.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">and Approval Done = 1</text>
+<rect x="590.0" y="1070" width="440" height="92" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.8"/>
+<text x="810" y="1095.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1f2d3d" text-anchor="middle">REJECT</text>
+<text x="810" y="1112.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">1. Close the instance: status Rejected, completed date,</text>
+<text x="810" y="1129.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">channel = UI Button, comment</text>
+<text x="810" y="1146.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">2. On the PO / Bill: set comment and Approval Done = 2</text>
+<path d="M 440,990 L 290,990 L 290,1070" fill="none" stroke="#16a34a" stroke-width="1.8"/>
+<polygon points="290,1070 284.5,1059.0 295.5,1059.0" fill="#16a34a"/>
+<path d="M 660,990 L 810,990 L 810,1070" fill="none" stroke="#dc2626" stroke-width="1.8"/>
+<polygon points="810,1070 804.5,1059.0 815.5,1059.0" fill="#dc2626"/>
+<rect x="335.67" y="967" width="58.66" height="20" rx="10" fill="#ffffff" stroke="#cbd5e1"/>
+<text x="365" y="982" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#16a34a" text-anchor="middle">Approve</text>
+<rect x="708.86" y="967" width="52.279999999999994" height="20" rx="10" fill="#ffffff" stroke="#cbd5e1"/>
+<text x="735" y="982" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" fill="#dc2626" text-anchor="middle">Reject</text>
+<rect x="120.0" y="1196" width="860" height="78" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.8"/>
+<text x="550" y="1222.55" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1f2d3d" text-anchor="middle">Existing approval workflow (Approval_Level_Update_WFA) reacts to the Done flag:</text>
+<text x="550" y="1239.55" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">moves to the next level or finalises as Approved / Rejected,</text>
+<text x="550" y="1256.55" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">updates the record's status and buttons, and sends the workflow's notifications</text>
+<path d="M 290,1162 L 290,1196" fill="none" stroke="#16a34a" stroke-width="1.8"/>
+<polygon points="290,1196 284.5,1185.0 295.5,1185.0" fill="#16a34a"/>
+<path d="M 810,1162 L 810,1196" fill="none" stroke="#dc2626" stroke-width="1.8"/>
+<polygon points="810,1196 804.5,1185.0 815.5,1185.0" fill="#dc2626"/>
+<rect x="270.0" y="1300" width="560" height="46" rx="10" fill="#ffffff" stroke="#475569" stroke-width="1.8"/>
+<text x="550" y="1327.55" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">Redirect back with result counts and the processed record IDs</text>
+<path d="M 550,1274 L 550,1300" fill="none" stroke="#475569" stroke-width="1.8"/>
+<polygon points="550,1300 544.5,1289.0 555.5,1289.0" fill="#475569"/>
+<rect x="160.0" y="1414" width="780" height="62" rx="10" fill="#ffffff" stroke="#7c3aed" stroke-width="1.8"/>
+<text x="550" y="1441.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">Page reloads: result cards (approved / rejected / skipped / errors),</text>
+<text x="550" y="1458.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">processed records no longer listed, address bar cleaned</text>
+<path d="M 550,1346 L 550,1414" fill="none" stroke="#475569" stroke-width="1.8"/>
+<polygon points="550,1414 544.5,1403.0 555.5,1403.0" fill="#475569"/>
+</svg>
