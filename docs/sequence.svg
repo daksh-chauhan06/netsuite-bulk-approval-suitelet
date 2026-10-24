@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="880" viewBox="0 0 1100 880"><rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="110" y1="116" x2="110" y2="850" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="5 5"/>
+<line x1="330" y1="116" x2="330" y2="850" stroke="#0f766e" stroke-width="1.2" stroke-dasharray="5 5"/>
+<line x1="550" y1="116" x2="550" y2="850" stroke="#d97706" stroke-width="1.2" stroke-dasharray="5 5"/>
+<line x1="770" y1="116" x2="770" y2="850" stroke="#475569" stroke-width="1.2" stroke-dasharray="5 5"/>
+<line x1="990" y1="116" x2="990" y2="850" stroke="#7c3aed" stroke-width="1.2" stroke-dasharray="5 5"/>
+<rect x="8" y="132" width="1084" height="30" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1"/>
+<text x="22" y="152" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#2563eb" text-anchor="start">A - OPEN THE PAGE</text>
+<rect x="8" y="420" width="1084" height="30" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1"/>
+<text x="22" y="440" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#16a34a" text-anchor="start">B - APPROVE OR REJECT SELECTED ROWS</text>
+<text x="550" y="34" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#1f2d3d" text-anchor="middle">Bulk Approval Suitelet - Who Talks To Whom</text>
+<rect x="25.0" y="60" width="170" height="56" rx="10" fill="#ffffff" stroke="#2563eb" stroke-width="1.8"/>
+<text x="110" y="84.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1f2d3d" text-anchor="middle">Approver</text>
+<text x="110" y="101.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">(browser)</text>
+<rect x="245.0" y="60" width="170" height="56" rx="10" fill="#ffffff" stroke="#0f766e" stroke-width="1.8"/>
+<text x="330" y="84.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1f2d3d" text-anchor="middle">Suitelet</text>
+<text x="330" y="101.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">(this script)</text>
+<rect x="465.0" y="60" width="170" height="56" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="1.8"/>
+<text x="550" y="84.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1f2d3d" text-anchor="middle">Approval</text>
+<text x="550" y="101.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">Instance record</text>
+<rect x="685.0" y="60" width="170" height="56" rx="10" fill="#ffffff" stroke="#475569" stroke-width="1.8"/>
+<text x="770" y="84.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1f2d3d" text-anchor="middle">PO / Vendor Bill</text>
+<text x="770" y="101.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">record</text>
+<rect x="905.0" y="60" width="170" height="56" rx="10" fill="#ffffff" stroke="#7c3aed" stroke-width="1.8"/>
+<text x="990" y="84.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1f2d3d" text-anchor="middle">Approval</text>
+<text x="990" y="101.05" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#1f2d3d" text-anchor="middle">workflow</text>
+<path d="M 110,200 L 330,200" fill="none" stroke="#334155" stroke-width="1.8"/>
+<polygon points="330,200 319.0,205.5 319.0,194.5" fill="#334155"/>
+<circle cx="90" cy="200" r="10" fill="#334155"/>
+<text x="90" y="204" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+<text x="220.0" y="192" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1f2d3d" text-anchor="middle">Open page (GET)</text>
+<path d="M 330,262 L 550,262" fill="none" stroke="#334155" stroke-width="1.8"/>
+<polygon points="550,262 539.0,267.5 539.0,256.5" fill="#334155"/>
+<circle cx="310" cy="262" r="10" fill="#334155"/>
+<text x="310" y="266" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+<text x="440.0" y="254" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1f2d3d" text-anchor="middle">Search my pending approvals</text>
+<path d="M 330,324 L 770,324" fill="none" stroke="#334155" stroke-width="1.8"/>
+<polygon points="770,324 759.0,329.5 759.0,318.5" fill="#334155"/>
+<circle cx="310" cy="324" r="10" fill="#334155"/>
+<text x="310" y="328" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+<text x="550.0" y="316" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1f2d3d" text-anchor="middle">Look up each PO / Bill (status, creator, amount ...)</text>
+<path d="M 330,386 L 110,386" fill="none" stroke="#334155" stroke-width="1.8" stroke-dasharray="6 4"/>
+<polygon points="110,386 121.0,380.5 121.0,391.5" fill="#334155"/>
+<circle cx="350" cy="386" r="10" fill="#334155"/>
+<text x="350" y="390" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">4</text>
+<text x="220.0" y="378" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1f2d3d" text-anchor="middle">Lists + buttons</text>
+<path d="M 110,500 L 330,500" fill="none" stroke="#334155" stroke-width="1.8"/>
+<polygon points="330,500 319.0,505.5 319.0,494.5" fill="#334155"/>
+<circle cx="90" cy="500" r="10" fill="#334155"/>
+<text x="90" y="504" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">5</text>
+<text x="220.0" y="478" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1f2d3d" text-anchor="middle">Selected rows + comments</text>
+<text x="220.0" y="493" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1f2d3d" text-anchor="middle">+ action (POST)</text>
+<path d="M 330,574 L 550,574" fill="none" stroke="#334155" stroke-width="1.8"/>
+<polygon points="550,574 539.0,579.5 539.0,568.5" fill="#334155"/>
+<circle cx="310" cy="574" r="10" fill="#334155"/>
+<text x="310" y="578" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">6</text>
+<text x="440.0" y="552" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1f2d3d" text-anchor="middle">Re-validate, save comment</text>
+<text x="440.0" y="567" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1f2d3d" text-anchor="middle">(reject: also close the level)</text>
+<path d="M 330,636 L 770,636" fill="none" stroke="#334155" stroke-width="1.8"/>
+<polygon points="770,636 759.0,641.5 759.0,630.5" fill="#334155"/>
+<circle cx="310" cy="636" r="10" fill="#334155"/>
+<text x="310" y="640" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">7</text>
+<text x="550.0" y="628" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1f2d3d" text-anchor="middle">Set comment + Approval Done flag (1 = approve, 2 = reject)</text>
+<path d="M 770,698 L 990,698" fill="none" stroke="#7c3aed" stroke-width="1.8"/>
+<polygon points="990,698 979.0,703.5 979.0,692.5" fill="#7c3aed"/>
+<circle cx="750" cy="698" r="10" fill="#7c3aed"/>
+<text x="750" y="702" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">8</text>
+<text x="880.0" y="690" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1f2d3d" text-anchor="middle">Save fires the workflow</text>
+<path d="M 990,760 L 770,760" fill="none" stroke="#7c3aed" stroke-width="1.8" stroke-dasharray="6 4"/>
+<polygon points="770,760 781.0,754.5 781.0,765.5" fill="#7c3aed"/>
+<circle cx="1010" cy="760" r="10" fill="#7c3aed"/>
+<text x="1010" y="764" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">9</text>
+<text x="880.0" y="752" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1f2d3d" text-anchor="middle">Next level / finalise / notify</text>
+<path d="M 330,822 L 110,822" fill="none" stroke="#334155" stroke-width="1.8" stroke-dasharray="6 4"/>
+<polygon points="110,822 121.0,816.5 121.0,827.5" fill="#334155"/>
+<circle cx="350" cy="822" r="10" fill="#334155"/>
+<text x="350" y="826" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">10</text>
+<text x="220.0" y="814" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" fill="#1f2d3d" text-anchor="middle">Redirect + result cards</text>
+</svg>
